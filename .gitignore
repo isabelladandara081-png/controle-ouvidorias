@@ -1,0 +1,11 @@
+# Dados reais de ouvidorias NUNCA devem ir para o GitHub
+dados/*
+!dados/.gitkeep
+*.xlsx
+*.xls
+backup-*.json
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.streamlit/secrets.toml
